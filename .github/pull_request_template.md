@@ -1,23 +1,15 @@
-# Pull Request - TP AySO Integral
+## 🔧 ¿Qué cambios hiciste?
+- [ ] Scripts
+- [ ] Configuraciones  
+- [ ] Documentación
+- [ ] Otro: _____
 
-## ¿Qué cambios hiciste?
-- [ ] Agregué/modifiqué scripts
-- [ ] Agregué/modifiqué configuraciones  
-- [ ] Agregué documentación
-- [ ] Otro: ___________
+## 📝 Describe brevemente:
 
-## Describe brevemente:
-(Explica en 2-3 líneas qué hiciste)
 
-## ¿Funciona correctamente?
-- [ ] Sí, lo probé
-- [ ] No lo pude probar
+## ✅ ¿Funciona?
+- [ ] Sí, probado
+- [ ] No probé
 
-## Archivos principales modificados:
+## 📁 Archivos modificados:
 - 
-- 
-
----
-**Nota**: Recuerda revisar que no subiste contraseñas o datos sensibles.
-
-
