@@ -1,0 +1,21 @@
+CTYPE html>
+<html lang="es">
+	<head>
+		  <meta charset="UTF-8">
+		    <title>Demostración de cambio dinámico</title>
+		      <script>
+			          document.addEventListener("DOMContentLoaded", () => {
+									      const ahora = new Date();
+									      document.getElementById("hora").innerText = ahora.toLocaleString();
+									    });
+			        </script>
+	</head>
+	<body style="font-family: sans-serif; text-align: center; margin-top: 50px;">
+		  <h1>Archivo modificado dinámicamente</h1>
+		    <p>Última modificación mostrada desde JavaScript:</p>
+		      <h2 id="hora" style="color: green;"></h2>
+		        <p>Actualizá la página para ver el cambio.</p>
+	</body>
+</html>
+
+
