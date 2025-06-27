@@ -1,0 +1,24 @@
+version: "3.8"
+
+services:
+
+  nginxweb:
+
+      image: carla0alopez/tp-div_314_grupo_grupo5
+      # image: integrante2dockeruser/tp-div_314_grupo_grupo5
+      # image: integrante3dockeruser/tp-div_314_grupo_grupo5
+      # image: integrante4dockeruser/tp-div_314_grupo_grupo5
+      # image: integrante5dockeruser/tp-div_314_grupo_grupo5
+      # image: integrante6dockeruser/tp-div_314_grupo_grupo5
+
+      ports:
+          
+        - "8081:80"
+
+      volumes:
+
+        - ./web/file/:/usr/share/nginx/html/file/
+
+  
+
+

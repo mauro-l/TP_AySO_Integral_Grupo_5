@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistemas Operativos - UTNFRA</title>
+    <title>IP Pública</title>
+    <script>
+	    fetch("https://api.apify.org?format=json")
+		    .then(response => response.json())
+		    .then( data => {
+					document.getElementById("ip").textContent = data.ip;
+				})
+		    .catch(error =>{
+					document.getElementById("ip").textContent = "No se pudo obtener la IP";
+					console.error("Error",error);
+				});
+    </script>
+    
+</head>
+<body style="front-family: sans-serif; text-aling: center; margin-top: 50px">
+    <div>
+        <h1>TP-INTEGRAL</h1>
+        <h2>Detalles del Grupo</h2>
+        <ul>
+            <li>Nombre Grupo : Grupo 5 </li>
+            <li>División: 314</li>
+            <li id="examen">Fecha: 26/06/2025  <span id="fecha"></span></li>
+	    <h1>IP Públca del navegador</h1>
+	    <p>La IP Pública detectada por el navegador es: </p>
+	    <h2> id="ip">Cargando...</h2>
+	    <p>Servido desde un contenedor de docker con NGINX</p>
+            <li></li>
+            <li>Role: (R1) - Nombre: Mauro  Apellido: Laime  Legajo: 118644 </li>
+            <li>Role: (R2) - Nombre: Adrian Apellido: Ferrera  Legajo: 118605 </li>
+            <li>Role: (R3) - Nombre: Mauro  Apellido: Laime  Legajo: 118644 </li>
+            <li>Role: (R4) - Nombre: Emilse Apellido: Gomez  Legajo: 118627 </li>
+            <li>Role: (R5) - Nombre: Carla  Apellido: Lopez  Legajo: 109301 </li> 
+	    <li>Role: (R6) - Nombre: Nicolas Apellido: Margni Legajo: 109426 </li>
+        </ul>
+    </div>        
+
+    <div id="contenido-archivo">
+        <h2>Archivo:</h2>
+        <textarea id="contenido-archivo-texto" rows="10" cols="50" readonly></textarea>
+    </div>
+
+    <script src="scripts/get-current-date.js"></script>
+    <script src="scripts/get-ip-publica.js"></script>
+    <script src="scripts/get-file-content.js"></script>
+</body>
+</html>
