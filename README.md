@@ -1,15 +1,19 @@
-# TP AySO Integral - Grupo 5
+# TP AySO Integral – Grupo 5
 
-Nombre Grupo: Grupo_5
-División: 314
-Fecha: 26/06/2025
+- **Nombre del grupo:** Grupo_5
+- **División:** 314
+- **Fecha:** 26/06/2025
 
-—-------------------------
+---
 
-R1: Nombre: Mauro Apellido: Laime
-R2: Nombre: Adrian Apellido: Ferrera
-R3: Nombre: Mauro Apellido: Laime
-R4: Nombre: Emilse Apellido: Gomez
-R5: Nombre: Carla Apellido: Lopez
-R6: Nombre: Nicolas Apellido: Margni
+## Integrantes
+
+| Rol | Nombre  | Apellido |
+| --- | ------- | -------- |
+| R1  | Mauro   | Laime    |
+| R2  | Adrián  | Ferrera  |
+| R3  | Mauro   | Laime    |
+| R4  | Emilse  | Gómez    |
+| R5  | Carla   | López    |
+| R6  | Nicolás | Margni   |
 
