@@ -11,6 +11,23 @@
   tasks:
     - include_role:
         name: TP_INI
+        rol: Creacion_Repositorio:
+        R1: Nombre: Mauro     Apellido: Laime
+
+        rol: LVM:
+        R2: Nombre: Adrian    Apellido: Ferrera
+
+        rol: Bash_Scripting:
+        R3: Nombre: Mauro     Apellido: Laime
+
+        rol: Ansible:
+        R4: Nombre: Emilse    Apellido: Gomez
+
+        rol: Docker:
+        R5: Nombre: Carla     Apellido: Lopez
+
+        rol: Testing
+        R6: Nombre: Nicolas   Apellido: Margni
     
     - name: "Otra tarea"
       debug:
