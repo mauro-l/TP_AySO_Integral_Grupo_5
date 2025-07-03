@@ -8,7 +8,7 @@ echo "=============================="
 echo "[1] Verificando estructura del proyecto..."
 
 REQUIRED_DIRS=("ansible" "ansible/ansible/roles" "ansible/ansible/roles/TP_INI" "ansible/ansible/roles/TP_INI/vars")
-REQUIRED_FILES=("Script-Master.sh" "ansible/playbook.yml")
+REQUIRED_FILES=("Bash_script/Script-Master.sh" "ansible/playbook.yml")
 
 
 for dir in "${REQUIRED_DIRS[@]}"; do
@@ -38,7 +38,7 @@ echo "Sintaxis OK."
 
 # 3. Ejecutar Script-Master
 echo "[3] Ejecutando Script-Master.sh..."
-bash Script-Master.sh
+bash Bash_script/Script-Master.sh
 if [ $? -ne 0 ]; then
   echo "ERROR: Fallo la ejecución del Script-Master."
   exit 1
