@@ -1,1 +1,1 @@
-{"virtualbox":{"/home/vagrant/compartido":{"guestpath":"/home/vagrant/compartido","hostpath":"C:/so/Tp_Integral/2_equipos/compartido_Host2","disabled":false,"__vagrantfile":true}}}
+{"virtualbox":{"/home/vagrant/compartido":{"guestpath":"/home/vagrant/compartido","hostpath":"C:/Users/Admin/Documents/Tecnicatura en Programacion (UTN 2025)/1er Cuatrimestre 2025/Arquitectura y Sistemas Operativos/Tp_Integrador/TP_AySO_Integral_Grupo_5/2_equipos/compartido_Host2","disabled":false,"__vagrantfile":true}}}
