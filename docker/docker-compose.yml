@@ -1,24 +1,18 @@
-version: "3.8"
 
+version: '3'
 services:
-
-  nginxweb:
-
+    nginxweb:
+      #Imagen del lider (ativa) Usa la imagen del lider del grupo subida al docker hub
       image: carla0alopez/tp-div_314_grupo_grupo5
-      # image: integrante2dockeruser/tp-div_314_grupo_grupo5
-      # image: integrante3dockeruser/tp-div_314_grupo_grupo5
-      # image: integrante4dockeruser/tp-div_314_grupo_grupo5
-      # image: integrante5dockeruser/tp-div_314_grupo_grupo5
-      # image: integrante6dockeruser/tp-div_314_grupo_grupo5
+        
+      #Imagenes de los demas, dejo comentadas las imagenes de los otros integrantes para poder probarlas
+      #image: maurolaime/tp-div_314_grupo_grupo5
+      #image: Ej-Gomez/tp-div_314_grupo_grupo5
+      #image: AdrianGFerr/tp-div_314_grupo_grupo5
+      #image: nicomargni/tp-div_314_grupo_grupo5  
 
       ports:
-          
-        - "8081:80"
-
+        - "8081:80" #Puerto del host(8081)->contenedor(80) Expone la web en el puerto 8081 del host(localhost o 192.168.56.10:8081)
+    
       volumes:
-
-        - ./web/file/:/usr/share/nginx/html/file/
-
-  
-
-
+        - ./web/file:/usr/share/nginx/html/file #Monta la carpeta web/file del proyecto local dentro del contenedor,deja modificar ya
