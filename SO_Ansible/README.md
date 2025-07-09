@@ -4,7 +4,7 @@ UTN - Arquitectura y Sistemas Operativos
 
 El presente repo tiene la finalidad de dar una introduccion a Ansible
 
-Precondiciones:
+--- Precondiciones ---
 
 - Se debera tener instalado los siguientes paquetes:
 
@@ -12,31 +12,29 @@ Precondiciones:
 
   - git
    
-- Tener claves ssh generadas:
+--- Tener claves ssh generadas ---
   
   ssh-keygen -t ed25519
   
-Contendido:
+--- Contendido ---
 
-Presentacion Introductoria
+--- Presentacion Introductoria ---
 
-Carpetas de ejemplos:
+--- Carpetas de ejemplos ---
 
-Subcarpeta	Description
+*Subcarpeta	Description
 
-ejemplo_01	playbook hola mundo
+*ejemplo_01	playbook hola mundo
 
-ejemplo_02	playbook Ejemplo instalacion paquete
+*ejemplo_02	playbook Ejemplo instalacion paquete
 
-ejemplo_03	Ejemplo rol basico
+*ejemplo_03	Ejemplo rol basico
 
-playbook_pruebas	
+*playbook_pruebas	
 
-Ejemplo playbook que llama a rol
+*Ejemplo playbook que llama a rol
 
-Documentacion
-
-Documentacion Ansible:
+---Documentacion Ansible---
 
 #Ansible - Mejores Prácticas
 
