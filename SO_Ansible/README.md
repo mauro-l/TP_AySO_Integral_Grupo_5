@@ -3,11 +3,14 @@ UTN-FRA_SO_Ansible
 UTN - Arquitectura y Sistemas Operativos
 
 El presente repo tiene la finalidad de dar una introduccion a Ansible
+
 Precondiciones:
 
 - Se debera tener instalado los siguientes paquetes:
-	- ansible
-	- git
+
+  - ansible
+
+  - git
    
 - Tener claves ssh generadas:
   
@@ -20,8 +23,11 @@ Presentacion Introductoria
 Carpetas de ejemplos:
 
 Subcarpeta	Description
+
 ejemplo_01	playbook hola mundo
+
 ejemplo_02	playbook Ejemplo instalacion paquete
+
 ejemplo_03	Ejemplo rol basico
 
 playbook_pruebas	
@@ -33,8 +39,11 @@ Documentacion
 Documentacion Ansible:
 
 #Ansible - Mejores Prácticas
+
 #Ansible - Index Modules
+
 #Ansible - Galaxy
+
 #e-book Ansible en español
 
 —-------------------------
