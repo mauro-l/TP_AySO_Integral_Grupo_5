@@ -9,10 +9,12 @@ Precondiciones:
 	- ansible
 	- git
    
-- Tener claves ssh generadas
-		ssh-keygen -t ed25519
+- Tener claves ssh generadas:
+  
+  ssh-keygen -t ed25519
   
 Contendido:
+
 Presentacion Introductoria
 
 Carpetas de ejemplos:
