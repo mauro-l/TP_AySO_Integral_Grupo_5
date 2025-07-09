@@ -30,13 +30,15 @@ Ejemplo playbook que llama a rol
 
 Documentacion
 
-Documentacion Ansible
-Ansible - Mejores Prácticas
-Ansible - Index Modules
-Ansible - Galaxy
-e-book Ansible en español
+Documentacion Ansible:
+
+#Ansible - Mejores Prácticas
+#Ansible - Index Modules
+#Ansible - Galaxy
+#e-book Ansible en español
 
 —-------------------------
+
 Nombre Grupo: {{ Grupo_5 }}
 
 División: 314
