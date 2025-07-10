@@ -1,0 +1,10 @@
+---
+# tasks file for /home/vagrant/repogit/UTN-FRA_SO_Ansible/ejemplo_04/roles/role_4emilse
+
+- name: Add the user 'Emilse Gomez' with a specific uid and a primary group of 'docker'
+  become: yes
+  ansible.builtin.user:
+      name: Emilse Gomez
+      comment: R4
+      group: docker
+

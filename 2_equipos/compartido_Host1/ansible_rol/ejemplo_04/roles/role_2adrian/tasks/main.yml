@@ -1,0 +1,9 @@
+---
+# tasks file for /home/vagrant/repogit/UTN-FRA_SO_Ansible/ejemplo_04/roles/role_2adrian
+
+- name: Add the user 'Adrian Ferrera' with a specific uid and a primary group of 'docker'
+  become: yes
+  ansible.builtin.user:
+    name: Adrian Ferrera
+    comment: R2   
+    group: docker
