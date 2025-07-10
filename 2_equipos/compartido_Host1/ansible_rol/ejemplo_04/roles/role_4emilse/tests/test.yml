@@ -1,0 +1,5 @@
+---
+- hosts: localhost
+  remote_user: root
+  roles:
+    - /home/vagrant/repogit/UTN-FRA_SO_Ansible/ejemplo_04/roles/role_4emilse
